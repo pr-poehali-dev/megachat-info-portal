@@ -97,8 +97,8 @@ export default function Index() {
       answer: 'Да, абсолютно. Мы используем продвинутые системы модерации контента, не храним личные данные дольше необходимого и следуем всем стандартам защиты информации.'
     },
     {
-      question: 'Сколько это стоит?',
-      answer: 'Базовая версия MegaSchoolChat полностью бесплатна. Премиум-подписка с расширенными возможностями доступна от 299₽/месяц.'
+      question: 'Это бесплатно?',
+      answer: 'Да! MegaSchoolChat полностью бесплатен. Все функции доступны без ограничений и платных подписок.'
     },
     {
       question: 'Может ли нейросеть решать домашние задания?',
@@ -375,15 +375,15 @@ export default function Index() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <Icon name="Mail" size={20} className="text-primary" />
-                        <span>support@megaschoolchat.ru</span>
+                        <a href="mailto:MegaSchoolChat@gmail.com" className="hover:text-primary transition-colors">MegaSchoolChat@gmail.com</a>
                       </div>
                       <div className="flex items-center gap-3">
-                        <Icon name="Phone" size={20} className="text-primary" />
-                        <span>+7 (800) 555-35-35</span>
+                        <Icon name="Globe" size={20} className="text-primary" />
+                        <a href="https://ai-school-tools--preview.poehali.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Официальный сайт</a>
                       </div>
                       <div className="flex items-center gap-3">
-                        <Icon name="MapPin" size={20} className="text-primary" />
-                        <span>Москва, ул. Инновационная, 42</span>
+                        <Icon name="MessageCircle" size={20} className="text-primary" />
+                        <span>Техническая поддержка 24/7</span>
                       </div>
                     </div>
                   </TabsContent>
@@ -481,15 +481,12 @@ export default function Index() {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold text-foreground mb-2">7. Оплата услуг</h3>
+                    <h3 className="text-xl font-bold text-foreground mb-2">7. Бесплатность сервиса</h3>
                     <p>
-                      7.1. Базовые функции Сервиса предоставляются бесплатно.
+                      7.1. Все функции Сервиса предоставляются абсолютно бесплатно.
                     </p>
                     <p className="mt-2">
-                      7.2. Доступ к расширенному функционалу осуществляется на основе платной подписки в соответствии с тарифами, размещёнными на сайте.
-                    </p>
-                    <p className="mt-2">
-                      7.3. Оплата производится в российских рублях. Возврат денежных средств возможен в соответствии с законодательством РФ.
+                      7.2. Администрация оставляет за собой право в будущем добавить платные опции, о чём Пользователи будут уведомлены заранее.
                     </p>
                   </div>
 
@@ -531,7 +528,7 @@ export default function Index() {
 
                   <div className="pt-4 border-t border-border">
                     <p className="text-sm">
-                      По всем вопросам, связанным с настоящим Соглашением, обращайтесь по адресу: support@megaschoolchat.ru
+                      По всем вопросам, связанным с настоящим Соглашением, обращайтесь по адресу: <a href="mailto:MegaSchoolChat@gmail.com" className="text-primary hover:underline">MegaSchoolChat@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -576,11 +573,11 @@ export default function Index() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  support@megaschoolchat.ru
+                  <a href="mailto:MegaSchoolChat@gmail.com" className="hover:text-primary transition-colors">MegaSchoolChat@gmail.com</a>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Icon name="Phone" size={16} />
-                  +7 (800) 555-35-35
+                  <Icon name="Globe" size={16} />
+                  <a href="https://ai-school-tools--preview.poehali.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Официальный сайт</a>
                 </li>
               </ul>
             </div>
